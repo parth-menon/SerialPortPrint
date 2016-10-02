@@ -1,0 +1,4 @@
+# ninja log v5
+0	58	0	CMakeFiles/native-lib.dir/src/main/cpp/SerialPort.c.o	819987dcf9393d69
+0	118	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	9d67e5836dffb543
+118	171	0	../obj/armeabi/libnative-lib.so	2a0e16274b90f5d4

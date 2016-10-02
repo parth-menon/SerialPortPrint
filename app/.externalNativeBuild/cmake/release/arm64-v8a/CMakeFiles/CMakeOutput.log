@@ -1,0 +1,196 @@
+The target system is: Android - 21 - aarch64
+The host system is: Darwin - 16.0.0 - x86_64
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/steelsty/MyApplication/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/steelsty/Documents/android-sdk-macosx/cmake/3.6.3155560/bin/ninja" "cmTC_8e63d"
+[1/2] Building C object CMakeFiles/cmTC_8e63d.dir/testCCompiler.c.o
+[2/2] Linking C executable cmTC_8e63d
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/steelsty/MyApplication/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/steelsty/Documents/android-sdk-macosx/cmake/3.6.3155560/bin/ninja" "cmTC_97394"
+[1/2] Building C object CMakeFiles/cmTC_97394.dir/CMakeCCompilerABI.c.o
+[2/2] Linking C executable cmTC_97394
+Android clang version 3.8.256229  (based on LLVM 3.8.256229)
+Target: aarch64-none-linux-android
+Thread model: posix
+InstalledDir: /Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin
+Found candidate GCC installation: /Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x
+Selected GCC installation: /Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld" --sysroot=/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/platforms/android-21/arch-arm64 -pie --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_97394 /Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/platforms/android-21/arch-arm64/usr/lib/crtbegin_dynamic.o -L/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x -L/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/platforms/android-21/arch-arm64/usr/lib --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_97394.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/platforms/android-21/arch-arm64/usr/lib/crtend_android.o
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(aarch64-linux-android-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/steelsty/MyApplication/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/Users/steelsty/Documents/android-sdk-macosx/cmake/3.6.3155560/bin/ninja" "cmTC_97394"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_97394.dir/CMakeCCompilerABI.c.o]
+  ignore line: [[2/2] Linking C executable cmTC_97394]
+  ignore line: [Android clang version 3.8.256229  (based on LLVM 3.8.256229)]
+  ignore line: [Target: aarch64-none-linux-android]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin]
+  ignore line: [Found candidate GCC installation: /Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+  ignore line: [Selected GCC installation: /Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  link line: [ "/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld" --sysroot=/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/platforms/android-21/arch-arm64 -pie --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_97394 /Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/platforms/android-21/arch-arm64/usr/lib/crtbegin_dynamic.o -L/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x -L/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/platforms/android-21/arch-arm64/usr/lib --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_97394.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/platforms/android-21/arch-arm64/usr/lib/crtend_android.o]
+    arg [/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld] ==> ignore
+    arg [--sysroot=/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/platforms/android-21/arch-arm64] ==> ignore
+    arg [-pie] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [aarch64linux] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_97394] ==> ignore
+    arg [/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/platforms/android-21/arch-arm64/usr/lib/crtbegin_dynamic.o] ==> ignore
+    arg [-L/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x] ==> dir [/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+    arg [-L/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64] ==> dir [/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64]
+    arg [-L/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib] ==> dir [/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib]
+    arg [-L/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/platforms/android-21/arch-arm64/usr/lib] ==> dir [/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/platforms/android-21/arch-arm64/usr/lib]
+    arg [--build-id] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [-znocopyreloc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [-znocopyreloc] ==> ignore
+    arg [CMakeFiles/cmTC_97394.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/platforms/android-21/arch-arm64/usr/lib/crtend_android.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc]
+  collapse library dir [/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x] ==> [/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+  collapse library dir [/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64] ==> [/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/aarch64-linux-android/lib64]
+  collapse library dir [/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib] ==> [/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/aarch64-linux-android/lib]
+  collapse library dir [/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/platforms/android-21/arch-arm64/usr/lib] ==> [/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/platforms/android-21/arch-arm64/usr/lib]
+  implicit libs: [dl;c;dl]
+  implicit dirs: [/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x;/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/aarch64-linux-android/lib64;/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/aarch64-linux-android/lib;/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/platforms/android-21/arch-arm64/usr/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/steelsty/MyApplication/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/steelsty/Documents/android-sdk-macosx/cmake/3.6.3155560/bin/ninja" "cmTC_ff06f"
+[1/2] Building CXX object CMakeFiles/cmTC_ff06f.dir/testCXXCompiler.cxx.o
+[2/2] Linking CXX executable cmTC_ff06f
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/steelsty/MyApplication/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/steelsty/Documents/android-sdk-macosx/cmake/3.6.3155560/bin/ninja" "cmTC_eb4da"
+[1/2] Building CXX object CMakeFiles/cmTC_eb4da.dir/CMakeCXXCompilerABI.cpp.o
+[2/2] Linking CXX executable cmTC_eb4da
+Android clang version 3.8.256229  (based on LLVM 3.8.256229)
+Target: aarch64-none-linux-android
+Thread model: posix
+InstalledDir: /Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin
+Found candidate GCC installation: /Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x
+Selected GCC installation: /Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld" --sysroot=/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/platforms/android-21/arch-arm64 -pie --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_eb4da /Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/platforms/android-21/arch-arm64/usr/lib/crtbegin_dynamic.o -L/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x -L/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/platforms/android-21/arch-arm64/usr/lib --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_eb4da.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/platforms/android-21/arch-arm64/usr/lib/crtend_android.o
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(aarch64-linux-android-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/steelsty/MyApplication/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/Users/steelsty/Documents/android-sdk-macosx/cmake/3.6.3155560/bin/ninja" "cmTC_eb4da"]
+  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_eb4da.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [[2/2] Linking CXX executable cmTC_eb4da]
+  ignore line: [Android clang version 3.8.256229  (based on LLVM 3.8.256229)]
+  ignore line: [Target: aarch64-none-linux-android]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin]
+  ignore line: [Found candidate GCC installation: /Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+  ignore line: [Selected GCC installation: /Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  link line: [ "/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld" --sysroot=/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/platforms/android-21/arch-arm64 -pie --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_eb4da /Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/platforms/android-21/arch-arm64/usr/lib/crtbegin_dynamic.o -L/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x -L/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/platforms/android-21/arch-arm64/usr/lib --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_eb4da.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/platforms/android-21/arch-arm64/usr/lib/crtend_android.o]
+    arg [/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld] ==> ignore
+    arg [--sysroot=/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/platforms/android-21/arch-arm64] ==> ignore
+    arg [-pie] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [aarch64linux] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_eb4da] ==> ignore
+    arg [/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/platforms/android-21/arch-arm64/usr/lib/crtbegin_dynamic.o] ==> ignore
+    arg [-L/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x] ==> dir [/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+    arg [-L/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64] ==> dir [/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64]
+    arg [-L/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib] ==> dir [/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib]
+    arg [-L/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/platforms/android-21/arch-arm64/usr/lib] ==> dir [/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/platforms/android-21/arch-arm64/usr/lib]
+    arg [--build-id] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [-znocopyreloc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [-znocopyreloc] ==> ignore
+    arg [CMakeFiles/cmTC_eb4da.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/platforms/android-21/arch-arm64/usr/lib/crtend_android.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc]
+  remove lib [gcc]
+  remove lib [gcc]
+  collapse library dir [/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x] ==> [/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+  collapse library dir [/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64] ==> [/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/aarch64-linux-android/lib64]
+  collapse library dir [/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib] ==> [/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/aarch64-linux-android/lib]
+  collapse library dir [/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/platforms/android-21/arch-arm64/usr/lib] ==> [/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/platforms/android-21/arch-arm64/usr/lib]
+  implicit libs: [stdc++;m;dl;c;dl]
+  implicit dirs: [/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x;/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/aarch64-linux-android/lib64;/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/aarch64-linux-android/lib;/Users/steelsty/Documents/android-sdk-macosx/ndk-bundle/platforms/android-21/arch-arm64/usr/lib]
+  implicit fwks: []
+
+
