@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity
         TextView tv = (TextView) findViewById(R.id.sample_text);
         serailPrint("HELLO PRINTER","/dev/ttyUSB0",38400);
     }
-    public void serailPrint(String content, String path, int baudRate)
+    public void serialPrint(String content, String path, int baudRate)
     {
         SerialPort serialPort = null;
         String strPrint;
